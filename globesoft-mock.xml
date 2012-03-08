@@ -6,18 +6,88 @@
     <ttl>5</ttl>
     <item>
       <projectNr>3</projectNr>
-      <title>Webbutvecklare-Test!</title>
+      <title>Programmerare</title>
       <extId />
       <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
       <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
       <country>Sweden</country>
       <Area1>Stockholms län</Area1>
       <Area2>Stockholm</Area2>
-      <description>Bejs</description>
+      <description><![CDATA[Vi söker dig som brinner för webben<br>Lorem ipsum dolar sit amet]]></description>
       <link>http://www2.blocket.se/support/form/0?id=12&amp;ca=11?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</link>
       <url>?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</url>
       <CommAdSeqNo>3</CommAdSeqNo>
-    </item>    
+    </item>
+    <item>
+      <projectNr>3</projectNr>
+      <title>Receptionist</title>
+      <extId />
+      <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
+      <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
+      <country>Sweden</country>
+      <Area1>Stockholms län</Area1>
+      <Area2>Stockholm</Area2>
+      <description>Lorem dolar sit amet adipiscing elit. Morbi ut augue vitae asit</description>
+      <link>http://www2.blocket.se/support/form/0?id=12&amp;ca=11?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</link>
+      <url>?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</url>
+      <CommAdSeqNo>3</CommAdSeqNo>
+    </item>
+    <item>
+      <projectNr>3</projectNr>
+      <title>Tennisproffs</title>
+      <extId />
+      <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
+      <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
+      <country>Sweden</country>
+      <Area1>Stockholms län</Area1>
+      <Area2>Stockholm</Area2>
+      <description>Lorem dolar sit amet adipiscing elit. Morbi ut augue vitae asit</description>
+      <link>http://www2.blocket.se/support/form/0?id=12&amp;ca=11?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</link>
+      <url>?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</url>
+      <CommAdSeqNo>3</CommAdSeqNo>
+    </item>
+    <item>
+      <projectNr>3</projectNr>
+      <title>Lorem ipsum</title>
+      <extId />
+      <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
+      <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
+      <country>Sweden</country>
+      <Area1>Stockholms län</Area1>
+      <Area2>Stockholm</Area2>
+      <description>Lorem dolar sit amet adipiscing elit. Morbi ut augue vitae asit</description>
+      <link>http://www2.blocket.se/support/form/0?id=12&amp;ca=11?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</link>
+      <url>?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</url>
+      <CommAdSeqNo>3</CommAdSeqNo>
+    </item>
+    <item>
+      <projectNr>3</projectNr>
+      <title>Lorem ipsum</title>
+      <extId />
+      <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
+      <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
+      <country>Sweden</country>
+      <Area1>Stockholms län</Area1>
+      <Area2>Stockholm</Area2>
+      <description>Lorem dolar sit amet adipiscing elit. Morbi ut augue vitae asit</description>
+      <link>http://www2.blocket.se/support/form/0?id=12&amp;ca=11?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</link>
+      <url>?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</url>
+      <CommAdSeqNo>3</CommAdSeqNo>
+    </item>
+    <item>
+      <projectNr>3</projectNr>
+      <title>Lorem ipsum</title>
+      <extId />
+      <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
+      <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
+      <country>Sweden</country>
+      <Area1>Stockholms län</Area1>
+      <Area2>Stockholm</Area2>
+      <description>Lorem dolar sit amet adipiscing elit. Morbi ut augue vitae asit</description>
+      <link>http://www2.blocket.se/support/form/0?id=12&amp;ca=11?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</link>
+      <url>?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</url>
+      <CommAdSeqNo>3</CommAdSeqNo>
+    </item>
 
   </channel>
 </rss>
