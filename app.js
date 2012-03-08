@@ -29,6 +29,10 @@ app.helpers({
     var diff = new Date(endDate) - new Date();
     var days = Math.floor(diff/1000/3600/24+1);
 
+    if(days < 0) { 
+      return {className: 'days-0', text: '0 dagar kvar'} 
+    }
+    
     switch (days) {
       case 0:
         return {className: 'days-0', text: '0 dagar kvar'}
