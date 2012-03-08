@@ -54,6 +54,11 @@ app.get("/", function(req,res){
   indexPage.init(res,'local');
 });
 
+var port = process.env.PORT || 3000;
+
+app.listen(port, function() {
+  console.log("Listening on " + port);
+});
 
 // Uncomment this if you're not using learboost/up
 // app.listen(3000);
