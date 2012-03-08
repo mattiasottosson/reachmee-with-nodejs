@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Available vacancies</title>
+    <title>Lediga tjänster</title>
     <description />
     <ttl>5</ttl>
     <item>
@@ -9,11 +9,11 @@
       <title>Programmerare</title>
       <extId />
       <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
-      <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
+      <pubDateTo>Fri, 10 Mar 2012 00:00:00 +0100</pubDateTo>
       <country>Sweden</country>
       <Area1>Stockholms län</Area1>
       <Area2>Stockholm</Area2>
-      <description><![CDATA[Vi söker dig som brinner för webben<br>Lorem ipsum dolar sit amet]]></description>
+      <description><![CDATA[Vi söker dig som brinner för webben <br>Lorem ipsum dolar sit]]></description>
       <link>http://www2.blocket.se/support/form/0?id=12&amp;ca=11?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</link>
       <url>?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</url>
       <CommAdSeqNo>3</CommAdSeqNo>
@@ -23,7 +23,7 @@
       <title>Receptionist</title>
       <extId />
       <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
-      <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
+      <pubDateTo>Thu, 08 Mar 2012 00:00:00 +0100</pubDateTo>
       <country>Sweden</country>
       <Area1>Stockholms län</Area1>
       <Area2>Stockholm</Area2>
