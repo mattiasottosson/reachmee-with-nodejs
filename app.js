@@ -3,14 +3,13 @@
  * Module dependencies.
  */
 
-var express = require('express')
-  , routes = require('./routes');
+var express = require('express'); 
 
 var app = module.exports = express.createServer();
 appPath = __dirname;
+require(appPath+'/controllers/index.js');
 
 // Configuration
-
 app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'ejs');
@@ -18,7 +17,6 @@ app.configure(function(){
   app.use(express.methodOverride());
   app.use(express.cookieParser());
   app.use(express.session({ secret: 'your secret here' }));
-  app.use(app.router);
   app.use(express.static(__dirname + '/public'));
 });
 
@@ -30,9 +28,9 @@ app.configure('production', function(){
   app.use(express.errorHandler());
 });
 
-// Routes
-
-app.get('/', routes.index);
+app.get("/", function(req,res){
+  indexPage.init(res,'local');
+});
 
 // Uncomment this if you're not using learboost/up
 // app.listen(3000);

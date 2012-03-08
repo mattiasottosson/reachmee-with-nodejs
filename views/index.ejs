@@ -1,6 +1,8 @@
-<h1><%= jobData['channel']['title'] %></h1>
-<ul>
-  <% for(i in jobData['channel']['item'] ) { %>
-    <li><a href="<%= jobData['channel']['item'][i]['link'] %>"><%= jobData['channel']['item'][i]['title'] %></a></li>
+<h1><%= title %></h1>
+<dl>
+  <% for(i in jobs ) { %>
+    <%= i %>
+    <dt><a href="<%= jobs[i]['link'] %>"><%= jobs[i]['title'] %></a></dt>
+    <dd><%= jobs[i]['description'] %></dd>
   <% } %>
-</ul>
+</dl>

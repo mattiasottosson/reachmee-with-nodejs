@@ -7,13 +7,10 @@ var http = require('http'),
 indexPage = {
   host: 'web102.reachmee.com',
   path: '/I009/blocket/LLPage/RSSFeed/external.ashx?id=5',
-  jobData: undefined,
-  errorMsg: undefined,
   
   init: function(res,mode) {
     this.res = res;
-    this.mode = mode;
-    this.mode == 'local' ? this.loadMockXml() : this.makeHttpRequest();
+    this.mode = mode == 'local' ? this.loadMockXml() : this.makeHttpRequest();
   },
   
   makeHttpRequest: function() {
@@ -34,8 +31,12 @@ indexPage = {
   },
   
   loadMockXml: function() {
-    fs.readFile(appPath+'/test.xml', function(err, data) {
-      if(err == null) { indexPage.parseXml(data); }
+    fs.readFile(appPath+'/globesoft-mock.xml', function(err, data) {
+      if(err == null) { 
+        indexPage.parseXml(data); 
+      } else {
+        console.log('Error reading file')
+      }
     });
   },
   
@@ -43,6 +44,8 @@ indexPage = {
     var parser = new xml2js.Parser(function(result, error) {
       if (!error) {
         indexPage.jobData = result;
+        var jobs = result['channel']['item'];
+        indexPage.jobs = jobs.length == undefined ? [jobs] : jobs
         // console.log(sys.inspect(result));
       } else {
         indexPage.errorMsg = error;
@@ -60,11 +63,7 @@ indexPage = {
   },
   
   renderTemplate: function() {
-    this.res.render('index', { title: 'Express', jobData: this.jobData, errorMsg: this.errorMsg })
+    this.res.render('index', { title: this.jobData['channel']['title'], jobs: this.jobs, errorMsg: this.errorMsg })
   }
-  
 }
 
-exports.index = function(req, res){
-  indexPage.init(res,'local');
-};

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Available vacancies</title>
+    <description />
+    <ttl>5</ttl>
+    <item>
+      <projectNr>3</projectNr>
+      <title>Webbutvecklare-Test!</title>
+      <extId />
+      <pubDate>Thu, 09 Feb 2012 00:00:00 +0100</pubDate>
+      <pubDateTo>Fri, 09 Mar 2012 00:00:00 +0100</pubDateTo>
+      <country>Sweden</country>
+      <Area1>Stockholms län</Area1>
+      <Area2>Stockholm</Area2>
+      <description>Bejs</description>
+      <link>http://www2.blocket.se/support/form/0?id=12&amp;ca=11?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</link>
+      <url>?RMURL=VacDetail%2Easpx%3FCommAdSeqNo%3D3</url>
+      <CommAdSeqNo>3</CommAdSeqNo>
+    </item>    
+
+  </channel>
+</rss>
