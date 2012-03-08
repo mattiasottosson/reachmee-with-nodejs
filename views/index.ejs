@@ -1,2 +1,6 @@
-<h1><%= title %></h1>
-<p>Welcome to <%= title %></p>
+<h1><%= jobData['channel']['title'] %></h1>
+<ul>
+  <% for(i in jobData['channel']['item'] ) { %>
+    <li><a href="<%= jobData['channel']['item'][i]['link'] %>"><%= jobData['channel']['item'][i]['title'] %></a></li>
+  <% } %>
+</ul>
