@@ -7,6 +7,8 @@ var express = require('express');
 
 var app = module.exports = express.createServer();
 appPath = __dirname;
+
+// Added controller
 require(appPath+'/controllers/index.js');
 
 // Configuration
@@ -20,6 +22,26 @@ app.configure(function(){
   app.use(express.static(__dirname + '/public'));
 });
 
+// Ejs Helpers
+app.helpers({
+
+  daysLeft: function(endDate) { 
+    var diff = new Date(endDate) - new Date();
+    var days = Math.floor(diff/1000/3600/24+1);
+
+    switch (days) {
+      case 0:
+        return {className: 'days-0', text: '0 dagar kvar'}
+      case 1:
+        return {className: 'days-1', text: '1 dag kvar'}
+      default:
+        return {className: 'days-'+days, text: days+' dagar kvar'}
+    }
+  }
+
+});
+
+
 app.configure('development', function(){
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 });
@@ -31,6 +53,7 @@ app.configure('production', function(){
 app.get("/", function(req,res){
   indexPage.init(res,'local');
 });
+
 
 // Uncomment this if you're not using learboost/up
 // app.listen(3000);

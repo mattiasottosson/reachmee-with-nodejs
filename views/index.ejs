@@ -1,8 +1,10 @@
 <h1><%= title %></h1>
 <dl>
   <% for(i in jobs ) { %>
-    <%= i %>
     <dt><a href="<%= jobs[i]['link'] %>"><%= jobs[i]['title'] %></a></dt>
-    <dd><%= jobs[i]['description'] %></dd>
+    <dd>
+      <span class="<%= daysLeft(jobs[i]['pubDateTo'])['className'] %>"><%= daysLeft(jobs[i]['pubDateTo'])['text'] %></span>
+      <%-jobs[i]['description'] %>
+    </dd>
   <% } %>
 </dl>
