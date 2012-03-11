@@ -4,10 +4,13 @@ body {
   margin: 0;
   padding: 0}
 
-
 a {
   color: #00B7FF;
   text-decoration: none}
+
+h1 {
+    color:#ff5827;
+    font-weight: normal}
 
 dl {
   border: 1px solid #ddd;
@@ -18,26 +21,23 @@ dl {
   padding: 26px 20px 0 63px;
   margin: 0}
 
-dd,dt {
-  margin: 0;
-  padding: 0}
-  
-  dd {
+  dl span {
+    background: transparent url('/images/days-sprite-mock.png') no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    left: -44px;
+    top: -13px;
+    height: 39px;
+    width: 26px}
+
+    .days-0 { background-position: 0 0}
+    .days-1 { background-position: -26px 0}
+    .days-2 { background-position: -52px 0}
+
+    dd,dt {
+      margin: 0;
+      padding: 0}
+
+    dd {
       position:relative;
       margin-bottom: 30px}
-  
-h1 {
-    color:#ff5827;
-    font-weight: normal}
-
-span {
-  text-indent: -9999px;
-  position: absolute;
-  left: -44px;
-  top: -13px;
-  height: 39px;
-  width: 26px}
-  
-span.days-0 {  background: transparent url('/images/days-sprite-mock.png') no-repeat 0 0}
-span.days-1 {  background: transparent url('/images/days-sprite-mock.png') no-repeat -26px 0}
-span.days-2 {  background: transparent url('/images/days-sprite-mock.png') no-repeat -52px 0}
